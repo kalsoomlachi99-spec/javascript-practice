@@ -10,3 +10,6 @@ if ((str[0] === 'a') && (str.length >= 3)) {
 
 // Alert message
 alert("Unsafe!");
+
+// Error message
+console.error("This is an error message.");
