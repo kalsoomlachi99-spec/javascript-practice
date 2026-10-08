@@ -7,3 +7,6 @@ if ((str[0] === 'a') && (str.length >= 3)) {
 } else {
     console.log (`${str} isn't a good string.`);
 }
+
+// Alert message
+alert("Unsafe!");
