@@ -22,3 +22,8 @@ let firstName = prompt("Enter your first name:");
 let lastName = prompt("Enter your last name:");
 let msg = "Welcome" + firstName + lastName + "!";
 console.log(msg);
+
+// String Methods
+//  1.trim() - remove white spaces from start and end
+let password = prompt("Enter your password");
+console.log(password.trim()); 
