@@ -27,3 +27,8 @@ console.log(msg);
 //  1.trim() - remove white spaces from start and end
 let password = prompt("Enter your password");
 console.log(password.trim()); 
+
+
+// 2.toUpperCase
+let userName = "Kalsoom";
+console.log(userName.toUpperCase());
