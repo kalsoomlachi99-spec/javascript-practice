@@ -13,3 +13,6 @@ alert("Unsafe!");
 
 // Error message
 console.error("This is an error message.");
+
+// warning message
+console.warn("This is a warn message.");
