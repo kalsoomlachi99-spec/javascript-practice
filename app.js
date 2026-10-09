@@ -32,3 +32,6 @@ console.log(password.trim());
 // 2.toUpperCase
 let userName = "Kalsoom";
 console.log(userName.toUpperCase());
+
+// 3.toLowerCase
+console.log(userName.toLowerCase());
