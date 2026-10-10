@@ -39,3 +39,7 @@ console.log(userName.toLowerCase());
 // 4.indexOf
 let strg = "ILoveCoding";
 console.log(strg.indexOf("Love"));
+
+// Method chaining
+let metChn = "    Hello World!   ";
+console.log(metChn.trim().toUpperCase());
