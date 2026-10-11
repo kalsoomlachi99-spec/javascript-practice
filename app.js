@@ -49,3 +49,10 @@ console.log(metChn.trim().slice(1 , 5));
 
 // replace, repeat
 console.log(metChn.replace("Hello", "Hi").repeat(3));
+
+// arrays
+let months = ["January", "July", "March", "August"];
+console.log(months.shift());
+console.log(months.shift());
+console.log(months.unshift("July"));
+console.log(months.unshift("June"));
