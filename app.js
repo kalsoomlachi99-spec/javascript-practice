@@ -47,5 +47,5 @@ console.log(metChn.trim().toUpperCase());
 // slice
 console.log(metChn.trim().slice(1 , 5));
 
-// replace
+// replace, repeat
 console.log(metChn.replace("Hello", "Hi").repeat(3));
