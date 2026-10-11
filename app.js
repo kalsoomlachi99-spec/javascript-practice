@@ -43,3 +43,9 @@ console.log(strg.indexOf("Love"));
 // Method chaining
 let metChn = "    Hello World!   ";
 console.log(metChn.trim().toUpperCase());
+
+// slice
+console.log(metChn.trim().slice(1 , 5));
+
+// replace
+console.log(metChn.replace("Hello", "Hi").repeat(3));
