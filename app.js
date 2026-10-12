@@ -83,3 +83,9 @@ console.log(months.sort());
 // practice question
 let pracQs = ["january", "July", "March", "August"];
 console.log(pracQs.splice(0, 2, "july", "june"));
+
+// array refrences
+let arr = ['a', 'b', 'c'];
+let arrCopy = arr;
+console.log("arr: " , arr);
+console.log("arrCopy: ", arrCopy);
