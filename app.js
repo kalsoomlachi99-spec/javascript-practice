@@ -73,3 +73,7 @@ console.log(months.slice(-2));
 
 // reverse 
 console.log(months.reverse());
+
+// splice(st, count of delete, N iterms add)
+console.log(months.splice(0, 1, "September"));
+  
