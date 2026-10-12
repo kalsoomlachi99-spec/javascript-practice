@@ -89,3 +89,7 @@ let arr = ['a', 'b', 'c'];
 let arrCopy = arr;
 console.log("arr: " , arr);
 console.log("arrCopy: ", arrCopy);
+
+// constant array - address will be constant not the values of array
+const costArr = ['a', 'b', 'c'];
+console.log(costArr.pop());
