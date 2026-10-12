@@ -93,3 +93,7 @@ console.log("arrCopy: ", arrCopy);
 // constant array - address will be constant not the values of array
 const costArr = ['a', 'b', 'c'];
 console.log(costArr.pop());
+ 
+// nested array
+let nums = [[2, 4], [3, 6], [4, 8]];
+console.log(nums[2][1]);
