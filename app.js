@@ -65,4 +65,11 @@ console.log(months.indexOf("July"));
 // includes - return bool answer 
 console.log(months.includes("March"));
 
+// slice(st, end) - return a piece of array
+console.log(months.slice());
+console.log(months.slice(2));
+console.log(months.slice(1, 4));
+console.log(months.slice(-2));
 
+// reverse 
+console.log(months.reverse());
