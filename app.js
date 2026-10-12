@@ -97,3 +97,7 @@ console.log(costArr.pop());
 // nested array
 let nums = [[2, 4], [3, 6], [4, 8]];
 console.log(nums[2][1]);
+
+// tic-tac-toe
+let game = [['X', 'O', 'X'],[null, 'X', null],['O', null, 'X']];
+console.log(game); 
