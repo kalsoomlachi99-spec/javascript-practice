@@ -79,3 +79,7 @@ console.log(months.splice(0, 1, "September"));
   
 // sort - first convert array in to string then sort it therefore it doesn't apply on numbers
 console.log(months.sort());
+
+// practice question
+let pracQs = ["january", "July", "March", "August"];
+console.log(pracQs.splice(0, 2, "july", "june"));
