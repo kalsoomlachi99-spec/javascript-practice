@@ -52,7 +52,17 @@ console.log(metChn.replace("Hello", "Hi").repeat(3));
 
 // arrays
 let months = ["January", "July", "March", "August"];
-console.log(months.shift());
-console.log(months.shift());
-console.log(months.unshift("July"));
-console.log(months.unshift("June"));
+console.log("before method: ", months);
+months.shift(); // delete from start
+months.unshift("June"); // add at start
+months.pop(); // delete from end
+months.push("December"); // add at end
+console.log("after method: ", months);
+
+// indexof - return index of desired element
+console.log(months.indexOf("July"));
+
+// includes - return bool answer 
+console.log(months.includes("March"));
+
+
