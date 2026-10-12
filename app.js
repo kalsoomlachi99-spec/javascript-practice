@@ -77,3 +77,5 @@ console.log(months.reverse());
 // splice(st, count of delete, N iterms add)
 console.log(months.splice(0, 1, "September"));
   
+// sort - first convert array in to string then sort it therefore it doesn't apply on numbers
+console.log(months.sort());
