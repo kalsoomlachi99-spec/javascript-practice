@@ -101,3 +101,14 @@ console.log(nums[2][1]);
 // tic-tac-toe
 let game = [['X', 'O', 'X'],[null, 'X', null],['O', null, 'X']];
 console.log(game); 
+
+// Loop - even numbers
+for (let i = 2; i <= 20; i+=2){
+    console.log(i);
+}
+ 
+console.log("backwords");
+
+for (let i = 20; i >= 2; i-=2){
+    console.log(i);
+}
