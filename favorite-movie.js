@@ -4,7 +4,7 @@ const favMovie = "avator";
 let guess = prompt("Please enter your guess");
 
 while (guess != favMovie ){
-    if (guess != "quit"){
+    if (guess == "quit"){
         console.log("you quit.");
         break;
     }

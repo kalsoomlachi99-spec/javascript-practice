@@ -112,3 +112,20 @@ console.log("backwords");
 for (let i = 20; i >= 2; i-=2){
     console.log(i);
 }
+
+// Loops with array
+let fruits = ["apple", "mango", "banana", "pineapple", "litchi"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(i, fruits[i]);
+}
+
+// for of loop
+for (fruit of fruits){ // using with array
+    console.log(fruit);
+}
+
+let name = "Kalsoom";
+for (chars of name){
+    console.log(chars);
+}
