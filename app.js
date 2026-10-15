@@ -125,7 +125,17 @@ for (fruit of fruits){ // using with array
     console.log(fruit);
 }
 
-let name = "Kalsoom";
-for (chars of name){
+let studentName = "Kalsoom";
+for (chars of studentName){
     console.log(chars);
+}
+
+// for of loop in nested array
+
+let heros = [["superman", "batman", "wonder woman"], ["spiderman", "ironman", "thor"]];
+
+for (list of heros){
+    for (heroName of list){
+        console.log(heroName);
+    }
 }

@@ -1,6 +1,6 @@
 // Favorite movie guessing game
 
-const favMovie = "avator";
+const favMovie = "avatar";
 let guess = prompt("Please enter your guess");
 
 while (guess != favMovie ){
