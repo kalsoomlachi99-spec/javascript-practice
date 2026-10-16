@@ -64,3 +64,9 @@ const arrOfObj = [
     }
 ];
 console.log(arrOfObj);
+
+// Math Object
+console.log(Math.floor(-5.984)); // integer, nearest, & smallest
+console.log(Math.ceil(3.9242)); // integer, nearest, & greatest
+console.log(Math.random()); // random number between 0 & 1, where 1 is exclusive
+console.log(Math.floor(Math.random() * 10) + 1); // 
