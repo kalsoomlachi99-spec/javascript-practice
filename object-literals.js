@@ -44,3 +44,23 @@ const classStudents = {
 };
 
 console.log (classStudents);
+
+// array of objects
+const arrOfObj = [ 
+    {
+        name: "kalsoom",
+        grade: "A+",
+        city: "madinah"
+    },
+    {
+        name: "manal",
+        grade: "A",
+        city: "palastine"
+    },
+    {
+        name: "saima",
+        grade: "O+",
+        city: "ghaza"
+    }
+];
+console.log(arrOfObj);
