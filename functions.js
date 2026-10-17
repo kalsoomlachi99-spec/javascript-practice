@@ -65,3 +65,19 @@ function concat (str) {
 }
 let str = ["hi ", "hello ", "bye ", "!"];
 console.log (concat(str));
+
+// Scope
+let greet = "Hello!"; // global scope
+
+function changeGreet () {
+    let greet = "Assalam-o-alikum"; // function scope
+    console.log (greet);   
+
+    function innerGreet () {
+        console.log (greet); // lexical scope
+    }
+    innerGreet();
+}
+
+console.log (greet);   
+changeGreet();
