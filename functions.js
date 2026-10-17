@@ -54,3 +54,14 @@ function getSum (n) {
 }
 
 console.log(getSum(3));
+ 
+// concatenation of all strings
+function concat (str) {
+    let result = "";
+    for (let i = 0; i < str.length; i++){
+        result += str[i];
+    }
+    return result;
+}
+let str = ["hi ", "hello ", "bye ", "!"];
+console.log (concat(str));
