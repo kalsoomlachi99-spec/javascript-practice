@@ -35,3 +35,10 @@ function printInfo (name, age) {
 }
 
 printInfo("kalsoom", 19);
+
+// avereage of 3 numberes
+function calcAverage (a, b, c) {
+    console.log ((a + b + c) / 3);
+}
+
+calcAverage (1, 2, 3);
