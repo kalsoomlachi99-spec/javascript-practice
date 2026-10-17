@@ -1,5 +1,6 @@
-// Function
+// Functions
 
+// print poem
 function printPoem() {
     console.log("Twinkle Twinkle little star");
     console.log("How i wonder what you are");
@@ -11,9 +12,26 @@ function printPoem() {
 
 printPoem();
 
+// roll dice 
 function rollDice() {
     let rand = Math.floor(Math.random() * 6) + 1;
     console.log(rand);
 }
 
 rollDice ();
+
+// Functions with argument
+
+// print sum
+function sum (a , b) {
+    console.log(a + b);
+}
+
+sum (4, 3);
+
+// print info
+function printInfo (name, age) {
+    console.log (`${name}'s age is ${age}`);
+}
+
+printInfo("kalsoom", 19);
