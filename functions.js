@@ -38,7 +38,19 @@ printInfo("kalsoom", 19);
 
 // average of 3 numberes
 function calcAverage (a, b, c) {
-    console.log ((a + b + c) / 3);
+    let ave = (a + b + c) / 3;
+    console.log (ave);
 }
 
 calcAverage (1, 2, 3);
+
+// return sum of n numbers
+function getSum (n) {
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+        sum += i;
+    } 
+    return sum;
+}
+
+console.log(getSum(3));
