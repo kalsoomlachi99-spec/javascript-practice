@@ -81,3 +81,16 @@ function changeGreet () {
 
 console.log (greet);   
 changeGreet();
+
+// Higher Order Function
+function multipleGreet (func, n) {
+    for (let i = 0; i < n; i++) {
+        func();
+    }
+}
+
+let salam = function () {
+    console.log("Assalamoalikum");
+}
+
+multipleGreet(salam, 3);
