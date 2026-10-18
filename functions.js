@@ -179,10 +179,13 @@ setTimeout (() => {
 console.log("Salam from");
 
 // Set interval function | execute function after given interval of time | use "clearInterval(id)"  to stop execution
-// let id = setInterval(() => {
-//     console.log("kalsoom");
-// }, 2000);
-// console.log(id);
+let id = setInterval(() => {
+    console.log("kalsoom");
+}, 4000);
+console.log(id);
+setTimeout (() => {
+    clearInterval(id);
+}, 10000);
 
 // this with arrow function
 const stu = {
@@ -212,11 +215,11 @@ const stu = {
 const sqrOfN = (n) => (n*n);
 
 // Function print "Hello World!" 5 times at interval of 2s each
-let id = setInterval (() => {
+let id3 = setInterval (() => {
     console.log("Hello World!");
 }, 2000);
 
 setTimeout (() => {
-    clearInterval(id);
+    clearInterval(id3);
     console.log("clear interval ran");
 }, 10000);
