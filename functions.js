@@ -138,3 +138,15 @@ const calcu= { // method 2
         return a * b;
     }
 };
+
+// "this" keyword | refers to the object which call it
+const student = {
+    name: "kalsoom",
+    age: 19,
+    eng: 99,
+    phy: 97,
+    math: 98,
+    getAve() {
+        console.log((this.eng + this.phy + this.math) / 3);
+    }
+};
