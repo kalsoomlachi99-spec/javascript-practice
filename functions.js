@@ -150,3 +150,12 @@ const student = {
         console.log((this.eng + this.phy + this.math) / 3);
     }
 };
+
+// try and catch pair
+
+try {
+    console.log (a);
+} catch(err) {
+    console.log ("a is not defined");
+    console.log(err);
+}
