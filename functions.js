@@ -167,3 +167,6 @@ const pow = (a, b) => {
 const cube = n => {
     console.log(n*n*n);
 };
+
+// Implicit Return in Arrow Function
+const sqr = (n) => (n*n);
