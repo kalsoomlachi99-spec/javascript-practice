@@ -112,3 +112,17 @@ function oddEvenFactory (request) {
         return "Wrong request";
     }
 }
+
+// Methods | Function inside an object or Function as a value of object's key
+
+const calculator = { // method 1
+    add: function (a, b) {
+        return a + b;
+    }, 
+    sub: function (a, b) {
+        return a - b;
+    },
+    mul: function (a, b) {
+        return a * b;
+    }
+};
