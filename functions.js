@@ -210,3 +210,13 @@ const stu = {
 
 // Arrow function that return square of number 'n'
 const sqrOfN = (n) => (n*n);
+
+// Function print "Hello World!" 5 times at interval of 2s each
+let id = setInterval (() => {
+    console.log("Hello World!");
+}, 2000);
+
+setTimeout (() => {
+    clearInterval(id);
+    console.log("clear interval ran");
+}, 10000);
