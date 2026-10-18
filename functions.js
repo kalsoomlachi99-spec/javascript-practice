@@ -152,10 +152,18 @@ const student = {
 };
 
 // try and catch pair
-
 try {
     console.log (a);
 } catch(err) {
     console.log ("a is not defined");
     console.log(err);
 }
+
+// arrow function
+const pow = (a, b) => {
+    console.log(a**b);
+};
+
+const cube = n => {
+    console.log(n*n*n);
+};
