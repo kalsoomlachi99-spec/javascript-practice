@@ -207,3 +207,6 @@ const stu = {
         }, 3000);
     }
 };
+
+// Arrow function that return square of number 'n'
+const sqrOfN = (n) => (n*n);
