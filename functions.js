@@ -178,8 +178,32 @@ setTimeout (() => {
 } , 3000);  
 console.log("Salam from");
 
-// Set interval function | execute function after given interval of time 
-let id = setInterval(() => {
-    console.log("kalsoom");
-}, 2000);
-console.log(id);
+// Set interval function | execute function after given interval of time | use "clearInterval(id)"  to stop execution
+// let id = setInterval(() => {
+//     console.log("kalsoom");
+// }, 2000);
+// console.log(id);
+
+// this with arrow function
+const stu = {
+    name: "kalsoom",
+    marks: 97,
+    getname: function () { 
+        console.log(this); // calling object's scope -> stu 
+        return this.name;
+    },
+    getmarks: () => {
+        console.log(this);  // parent's scope (lexical scope) -> window 
+       return this.marks;
+    },
+    getInfo1: function () {
+        setTimeout(function () {
+            console.log(this); // window
+        }, 3000);
+    }, 
+    getInfo2: function () {
+        setTimeout(() => {
+            console.log(this); // stu
+        }, 3000);
+    }
+};
