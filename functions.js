@@ -170,3 +170,10 @@ const cube = n => {
 
 // Implicit Return in Arrow Function
 const sqr = (n) => (n*n);
+
+// Set timeOut function
+console.log("hi there!")
+setTimeout (() => {
+    console.log("Manal");
+} , 3000);  
+console.log("Salam from");
