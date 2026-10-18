@@ -82,7 +82,9 @@ function changeGreet () {
 console.log (greet);   
 changeGreet();
 
-// Higher Order Function
+// Higher Order Function | function as argument + function in return
+
+// take function as argument
 function multipleGreet (func, n) {
     for (let i = 0; i < n; i++) {
         func();
@@ -94,3 +96,19 @@ let salam = function () {
 }
 
 multipleGreet(salam, 3);
+ 
+// returns a function
+
+function oddEvenFactory (request) {
+    if (request == "even") {
+        return function(n) {
+            console.log (n % 2 == 0);
+        }
+    } else if (request == "odd") {
+        return function(n) {
+            console.log (!(n % 2 == 0));
+        } 
+    } else {
+        return "Wrong request";
+    }
+}
