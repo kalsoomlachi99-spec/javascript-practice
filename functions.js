@@ -126,3 +126,15 @@ const calculator = { // method 1
         return a * b;
     }
 };
+
+const calcu= { // method 2
+    add (a, b) {
+        return a + b;
+    }, 
+    sub (a, b) {
+        return a - b;
+    },
+    mul (a, b) {
+        return a * b;
+    }
+};
