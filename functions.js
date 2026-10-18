@@ -177,3 +177,9 @@ setTimeout (() => {
     console.log("Manal");
 } , 3000);  
 console.log("Salam from");
+
+// Set interval function | execute function after given interval of time 
+let id = setInterval(() => {
+    console.log("kalsoom");
+}, 2000);
+console.log(id);
