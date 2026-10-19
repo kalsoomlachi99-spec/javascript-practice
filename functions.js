@@ -281,3 +281,9 @@ console.log("max: ", max);
 let multi = [10, 20, 50, 90];
 let answer = multi.every((num) => num % 10 == 0);
 console.log(answer);
+
+// Defalut parameter
+function defPmtr(a, b = 3) {
+  return a + b;
+}
+console.log("sum ", defPmtr(2));
