@@ -223,3 +223,19 @@ setTimeout (() => {
     clearInterval(id3);
     console.log("clear interval ran");
 }, 10000);
+
+// Array Mehtods
+const arr = [{
+    name: "Kalsoom",
+    marks: 899
+}, {
+    name: "Ujala",
+    marks: 736
+}, {
+    name: "Malaika",
+    marks: 852
+}];
+
+arr.forEach ((student) => { // execute every element of array
+    console.log(student.name);
+});
