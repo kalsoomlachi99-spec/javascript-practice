@@ -257,3 +257,6 @@ let dubble = num.map((el) => {
 let ans = num.filter((el) => {
   return el % 2 == 0;
 });
+
+// Every function -> return true if all elements return true
+console.log(num.every((el) => el % 2 == 0));
