@@ -252,3 +252,8 @@ let num = [1, 2, 3, 4, 5, 8, 9, 2, 12, 11];
 let dubble = num.map((el) => {
   return el * 2;
 });
+
+// Filter Function -> store element only if it returns true
+let ans = num.filter((el) => {
+  return el % 2 == 0;
+});
