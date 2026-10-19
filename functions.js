@@ -276,3 +276,8 @@ let max = num.reduce((max, el) => {
   }
 });
 console.log("max: ", max);
+
+// Multiple of 10
+let multi = [10, 20, 50, 90];
+let answer = multi.every((num) => num % 10 == 0);
+console.log(answer);
