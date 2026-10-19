@@ -260,3 +260,6 @@ let ans = num.filter((el) => {
 
 // Every function -> return true if all elements return true
 console.log(num.every((el) => el % 2 == 0));
+
+// Some function -> return true if any element return true
+console.log(num.some((el) => el % 2 == 0));
