@@ -264,5 +264,15 @@ console.log(num.every((el) => el % 2 == 0));
 // Some function -> return true if any element return true
 console.log(num.some((el) => el % 2 == 0));
 
-// Reduce Method
+// Reduce Method -> two arguments accomulator and element
 let finalValue = num.reduce((res, el) => res + el);
+
+// Maximum of an array
+let max = num.reduce((max, el) => {
+  if (el > max) {
+    return el;
+  } else {
+    return max;
+  }
+});
+console.log("max: ", max);
