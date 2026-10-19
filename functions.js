@@ -246,3 +246,9 @@ arr.forEach((student) => {
   // execute every element of array
   console.log(student.name);
 });
+
+// map function -> create new array of the same size of calling array
+let num = [1, 2, 3, 4, 5, 8, 9, 2, 12, 11];
+let dubble = num.map((el) => {
+  return el * 2;
+});
