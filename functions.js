@@ -300,3 +300,16 @@ let common = [...odd, ...even];
 function add(...arg) {
   return arg.reduce((sum, el) => sum + el);
 }
+
+// Desturcturing -> store values of array in multiple variables
+let names = ["kalsoom", "ujala", "malaika", "saima", "manal"];
+let [winner, runnerp] = names; // destructuring in arrays
+
+let stud = {
+  name: "kalsoom",
+  age: 19,
+  class: 12,
+  city: "kohat",
+  subject: ["math", "physics", "cs"],
+};
+let { name: studentName, city: place } = stud; // destructuring in arrays
