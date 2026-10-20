@@ -295,3 +295,8 @@ console.log(Math.min(...num));
 let odd = [1, 3, 5, 7, 9];
 let even = [2, 4, 8, 10];
 let common = [...odd, ...even];
+
+// Rest
+function add(...arg) {
+  return arg.reduce((sum, el) => sum + el);
+}
