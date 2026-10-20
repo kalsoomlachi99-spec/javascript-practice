@@ -287,3 +287,11 @@ function defPmtr(a, b = 3) {
   return a + b;
 }
 console.log("sum ", defPmtr(2));
+
+// Spread
+console.log(..."Kalsoom");
+console.log(Math.min(...num));
+
+let odd = [1, 3, 5, 7, 9];
+let even = [2, 4, 8, 10];
+let common = [...odd, ...even];
