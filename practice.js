@@ -15,3 +15,7 @@ console.dir(document.querySelectorAll("div a")); // all a inside div
 // Setting content in objects
 let heading = document.querySelector("h1");
 heading.innerHTML = `<u> ${heading.innerText}</U>`;
+
+// Manipulating Attributes
+let img = document.querySelector("img");
+console.dir(img);
