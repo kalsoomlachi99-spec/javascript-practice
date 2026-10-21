@@ -11,3 +11,7 @@ console.dir(document.getElementsByTagName("h1"));
 
 console.dir(document.querySelector("div a")); // first a inside div
 console.dir(document.querySelectorAll("div a")); // all a inside div
+
+// Setting content in objects
+let heading = document.querySelector("h1");
+heading.innerHTML = `<u> ${heading.innerText}</U>`;
