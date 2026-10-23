@@ -23,5 +23,5 @@ console.dir(img);
 //Manipulating Style (with style attribute)
 let links = document.querySelectorAll(".box a");
 for (link of links) {
-  links.style.color = "purple";
+  link.style.color = "purple";
 }
