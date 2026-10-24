@@ -8,7 +8,6 @@ console.dir(document.getElementsByClassName("images"));
 console.dir(document.getElementsByTagName("h1"));
 
 // Querry Seletor
-
 console.dir(document.querySelector("div a")); // first a inside div
 console.dir(document.querySelectorAll("div a")); // all a inside div
 
@@ -25,3 +24,9 @@ let links = document.querySelectorAll(".box a");
 for (link of links) {
   link.style.color = "purple";
 }
+
+// Class list
+console.dir(img.classList.add("img"));
+console.dir(img.classList.toggle("abc"));
+console.dir(img.classList.contains("img"));
+console.dir(img.classList.remove("abc"));
