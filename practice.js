@@ -27,6 +27,6 @@ for (link of links) {
 
 // Class list
 console.dir(img.classList.add("img"));
-console.dir(img.classList.toggle("abc"));
+console.dir(img.classList.toggle("abc")); // if exist then remove if not exist then add
 console.dir(img.classList.contains("img"));
 console.dir(img.classList.remove("abc"));
