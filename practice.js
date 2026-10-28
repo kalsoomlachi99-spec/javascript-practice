@@ -30,3 +30,9 @@ console.dir(img.classList.add("img"));
 console.dir(img.classList.toggle("abc")); // if exist then remove if not exist then add
 console.dir(img.classList.contains("img"));
 console.dir(img.classList.remove("abc"));
+
+// Navigation
+let h4 = document.querySelector("h4");
+console.dir(h4.parentElement);
+console.dir(h4.children);
+console.dir(box.children);
